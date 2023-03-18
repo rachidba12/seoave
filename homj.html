@@ -1,0 +1,1579 @@
+
+<!DOCTYPE html><!--[if !IE]><!--><html lang="en-US"><!--<![endif]--><head><meta charset="UTF-8" />
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=true;__ez.queue=function(){var e=0,i=0,t=[],n=!1,s=[],r=[],o=!0,a=function(e,i,n,s,r,o,a){var l=this;this.name=e,this.funcName=i,this.parameters=null===n?null:n instanceof Array?n:[n],this.isBlock=s,this.blockedBy=r,this.deleteWhenComplete=o,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=a,this.isTimeDelay=!1,this.process=function(){u("... func = "+e),l.isInitialized=!0,l.isComplete=!0,u("... func.apply: "+e);var i=l.funcName.split("."),n=null;i.length>3||(n=3===i.length?window[i[0]][i[1]][i[2]]:2===i.length?window[i[0]][i[1]]:window[l.funcName]),null!=n&&n.apply(null,this.parameters),!0===l.deleteWhenComplete&&delete t[e],!0===l.isBlock&&(u("----- F'D: "+l.name),f())}},l=function(e,i,t,n,s,r,o){var a=this;this.name=e,this.path=i,this.async=s,this.defer=r,this.isBlock=t,this.blockedBy=n,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=o,this.isTimeDelay=!1,this.isPath=function(e){return"/"===e[0]&&"/"!==e[1]},this.getSrc=function(e){return void 0!==window.__ezScriptHost&&this.isPath(e)?window.__ezScriptHost+e:e},this.process=function(){a.isInitialized=!0,u("... file = "+e);var i=document.createElement("script");i.src=this.getSrc(this.path),!0===s?i.async=!0:!0===r&&(i.defer=!0),i.onerror=function(){u("----- ERR'D: "+a.name),a.isError=!0,!0===a.isBlock&&f()},i.onreadystatechange=i.onload=function(){var e=i.readyState;u("----- F'D: "+a.name),e&&!/loaded|complete/.test(e)||(a.isComplete=!0,!0===a.isBlock&&f())},document.getElementsByTagName("head")[0].appendChild(i)}},c=function(e,i){this.name=e,this.path="",this.async=!1,this.defer=!1,this.isBlock=!1,this.blockedBy=[],this.isInitialized=!0,this.isError=!1,this.isComplete=i,this.proceedIfError=!1,this.isTimeDelay=!1,this.process=function(){}};function d(e){!0!==h(e)&&0!=o&&e.process()}function h(e){if(!0===e.isTimeDelay&&!1===n)return u(e.name+" blocked = TIME DELAY!"),!0;if(e.blockedBy instanceof Array)for(var i=0;i<e.blockedBy.length;i++){var s=e.blockedBy[i];if(!1===t.hasOwnProperty(s))return u(e.name+" blocked = "+s),!0;if(!0===e.proceedIfError&&!0===t[s].isError)return!1;if(!1===t[s].isComplete)return u(e.name+" blocked = "+s),!0}return!1}function u(e){var i=window.location.href,t=new RegExp("[?&]ezq=([^&#]*)","i").exec(i);"1"===(t?t[1]:null)&&console.debug(e)}function f(){++e>200||(u("let's go"),m(s),m(r))}function m(e){for(var i in e)if(!1!==e.hasOwnProperty(i)){var t=e[i];!0===t.isComplete||h(t)||!0===t.isInitialized||!0===t.isError?!0===t.isError?u(t.name+": error"):!0===t.isComplete?u(t.name+": complete already"):!0===t.isInitialized&&u(t.name+": initialized already"):t.process()}}return window.addEventListener("load",(function(){setTimeout((function(){n=!0,u("TDELAY -----"),f()}),5e3)}),!1),{addFile:function(e,i,n,o,a,c,h,u){var f=new l(e,i,n,o,a,c,h);!0===u?s[e]=f:r[e]=f,t[e]=f,d(f)},addDelayFile:function(e,i){var n=new l(e,i,!1,[],!1,!1,!0);n.isTimeDelay=!0,u(e+" ...  FILE! TDELAY"),r[e]=n,t[e]=n,d(n)},addFunc:function(e,n,o,l,c,h,u,f,m){!0===h&&(e=e+"_"+i++);var p=new a(e,n,o,l,c,u,f);!0===m?s[e]=p:r[e]=p,t[e]=p,d(p)},addDelayFunc:function(e,i,n){var s=new a(e,i,n,!1,[],!0,!0);s.isTimeDelay=!0,u(e+" ...  FUNCTION! TDELAY"),r[e]=s,t[e]=s,d(s)},items:t,processAll:f,setallowLoad:function(e){o=e},markLoaded:function(e){if(e&&0!==e.length){if(e in t){var i=t[e];!0===i.isComplete?u(i.name+" "+e+": error loaded duplicate"):(i.isComplete=!0,i.isInitialized=!0)}else t[e]=new c(e,!0);u("markLoaded dummyfile: "+t[e].name)}},logWhatsBlocked:function(){for(var e in t)!1!==t.hasOwnProperty(e)&&h(t[e])}}}();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot={};!function(){var e;__ez.vep=(e=[],"/detroitchicago/grapefruit.gif",{Add:function(i,t){__ez.dot.isDefined(i)&&__ez.dot.isValid(t)&&e.push({type:"video",video_impression_id:i,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(t)})},Fire:function(){if(void 0===document.visibilityState||"prerender"!==document.visibilityState){if(__ez.dot.isDefined(e)&&e.length>0)for(;e.length>0;){var i=5;i>e.length&&(i=e.length);var t=e.splice(0,i),o=__ez.dot.getURL("/detroitchicago/grapefruit.gif")+"?orig="+(!0===__ez.template.isOrig?1:0)+"&v="+btoa(JSON.stringify(t));__ez.dot.Fire(o)}e=[]}}})}();</script><script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-155322931-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155322931-3');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>reigntv The Best live TV streaming service Provider – The Best Quality, Best Collection and Best price for Users and Resellers</title>
+<meta name="robots" content="max-image-preview:large" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https://reigntv.w3spaces.com/README-copy.md"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://reigntv.w3spaces.com/README1.md" type="text/css" media="all" />
+<link rel="stylesheet" id="wp-components-css" href="https://reigntv.w3spaces.com/css1.md" type="text/css" media="all" />
+<link rel="stylesheet" id="wptelegram-widget--blocks-css" href="https://reigntv.w3spaces.com/f4.md" type="text/css" media="all" />
+<style id="wptelegram-widget--blocks-inline-css" type="text/css">
+:root {--wptelegram-widget-join-link-bg-color: #389ce9;--wptelegram-widget-join-link-color: #fff}
+</style>
+<link rel="stylesheet" id="classic-theme-styles-css" href="https://reigntv.w3spaces.com/css3.md" type="text/css" media="all" />
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="dashicons-css" href="https://reigntv.w3spaces.com/we.md" type="text/css" media="all" />
+<link rel="stylesheet" id="post-views-counter-frontend-css" href="https://reigntv.w3spaces.com/ss3.md" type="text/css" media="all" />
+<link rel="stylesheet" id="rs-plugin-settings-css" href="https://reigntv.w3spaces.com/plug.css" type="text/css" media="all" />
+<style id="rs-plugin-settings-inline-css" type="text/css">
+#rs-demo-id {}
+</style>
+<link rel="stylesheet" id="contact-form-7-email-spam-blocker-css" href="https://iptvfarm.net/wp-content/plugins/wp-contact-form7-email-spam-blocker/public/css/contact-form-7-email-spam-blocker-public.css?ver=1.0.0" type="text/css" media="all" />
+<link rel="stylesheet" id="wpsr_main_css-css" href="https://reigntv.w3spaces.com/ee.css" type="text/css" media="all" />
+<link rel="stylesheet" id="wpsr_fa_icons-css" href="https://reigntv.w3spaces.com/wdf.css" type="text/css" media="all" />
+<link rel="stylesheet" id="wptelegram-widget--public-css" href="https://reigntv.w3spaces.com/rgre4.css" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-icons-ekiticons-css" href="https://reigntv.w3spaces.com/ert5.css" type="text/css" media="all" />
+<link rel="stylesheet" id="tf-compiled-options-wdc-options-css" href="https://reigntv.w3spaces.com/rgvte.css" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-icons-css" href="https://seoave.w3spaces.com/drg54.css" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-frontend-legacy-css" href="https://seoave.w3spaces.com/sdwef.css" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-frontend-css" href="https://seoave.w3spaces.com/efrr4.css" type="text/css" media="all" />
+<link rel="stylesheet" id="swiper-css" href="https://seoave.w3spaces.com/rhy4.css" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-post-1579-css" href="https://seoave.w3spaces.com/rt44443.css" type="text/css" media="all" />
+<link rel="stylesheet" id="font-awesome-5-all-css" href="https://seoave.w3spaces.com/3def.css" type="text/css" media="all" />
+<link rel="stylesheet" id="font-awesome-4-shim-css" href="https://seoave.w3spaces.com/er543.css" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-global-css" href="https://seoave.w3spaces.com/reef4.css" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-post-6-css" href="https://seoave.w3spaces.com/2345t4.css" type="text/css" media="all" />
+<link rel="stylesheet" id="cf7cf-style-css" href="https://seoave.w3spaces.com/ertyujki.css" type="text/css" media="all" />
+<link rel="stylesheet" id="hostinza-fonts-css" href="https://fonts.googleapis.com/css?family=Karla%3Aregular%7CKarla%3A400%2C700%7CRubik%3A300%2C400%2C500%2C700&amp;ver=1.4.2" type="text/css" media="all" />
+<link rel="stylesheet" id="bootstrap-css" href="https://seoave.w3spaces.com/34gr.css" type="text/css" media="all" />
+<link rel="stylesheet" id="magnific-popup-css" href="https://seoave.w3spaces.com/qetu.css" type="text/css" media="all" />
+<link rel="stylesheet" id="hostinza-xs-main-css" href="https://seoave.w3spaces.com/re345.css" type="text/css" media="all" />
+<link rel="stylesheet" id="hostinza-custom-blog-css" href="https://seoave.w3spaces.com/w3453.css" type="text/css" media="all" />
+<link rel="stylesheet" id="animate-css" href="https://seoave.w3spaces.com/34332.css" type="text/css" media="all" />
+<link rel="stylesheet" id="owl-carousel-css" href="https://seoave.w3spaces.com/dfer5.css" type="text/css" media="all" />
+<link rel="stylesheet" id="owl-theme-default-css" href="https://seoave.w3spaces.com/r44r3.css" type="text/css" media="all" />
+<link rel="stylesheet" id="jquery-ui-structure-css" href="https://seoave.w3spaces.com/ee5g5.css" type="text/css" media="all" />
+<link rel="stylesheet" id="jquery-ui-theme-css" href="https://seoave.w3spaces.com/werr4.css" type="text/css" media="all" />
+<link rel="stylesheet" id="hostinza-main-styles-css" href="https://seoave.w3spaces.com/we4211.css" type="text/css" media="all" />
+<link rel="stylesheet" id="iconfont-css" href="https://wetv5.w3spaces.com/wfw32.css" type="text/css" media="all" />
+<link rel="stylesheet" id="font-awesome-css" href="https://wetv5.w3spaces.com/et5e44.css" type="text/css" media="all" />
+<link rel="stylesheet" id="hostinza-navigation-css" href="https://wetv5.w3spaces.com/wt4454.css" type="text/css" media="all" />
+<link rel="stylesheet" id="hostinza-gutenberg-css" href="https://iptvfarm.net/wp-content/themes/hostinza/assets/css/gutenberg.css?ver=1.4.2" type="text/css" media="all" />
+<link rel="stylesheet" id="hostinza-style-css" href="https://wetv5.w3spaces.com/egrt543.css" type="text/css" media="all" />
+<style id="hostinza-style-inline-css" type="text/css">
+
+            .woocommerce ul.products li.product .added_to_cart:hover,
+            .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{background-color: ;}
+            .woocommerce ul.products li.product .button,.woocommerce ul.products li.product .added_to_cart,
+			.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current,
+			.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.sponsor-web-link a:hover i
+		{background-color: ;}
+</style>
+<link rel="stylesheet" id="hostinza-gutenberg-custom-css" href="https://wetv5.w3spaces.com/e5yre.css" type="text/css" media="all" />
+<link rel="stylesheet" id="hostinza-responsive-css" href="https://wetv5.w3spaces.com/wr443.css" type="text/css" media="all" />
+<link rel="stylesheet" id="ekit-widget-styles-css" href="https://wetv5.w3spaces.com/r533t6.css" type="text/css" media="all" />
+<link rel="stylesheet" id="ekit-responsive-css" href="https://wetv5.w3spaces.com/re4t5uy.css" type="text/css" media="all" />
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CKarla%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRubik%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.1.1" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://wetv5.w3spaces.com/wf432.css" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://wetv5.w3spaces.com/dwf432.css" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://wetv5.w3spaces.com/wf4tg54.css" type="text/css" media="all" />
+<link rel="stylesheet" id="wdcGoogleFonts-css" href="//fonts.googleapis.com/css?family=Poppins%3A300&amp;ver=6.1.1" type="text/css" media="all" />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" /><script type="text/javascript" src="https://wetv5.w3spaces.com/rgftrh5.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://wetv5.w3spaces.com/dwefer4.js"></script>
+<script type="text/javascript" src="https://wetv5.w3spaces.com/dwefer3.js" defer="defer" id="tp-tools-js"></script>
+<script type="text/javascript" src="https://wetv5.w3spaces.com/dfeww.js" defer="defer" id="revmin-js"></script>
+<script type="text/javascript" src="https://wetv5.w3spaces.com/erge54.js"></script>
+<script type="text/javascript" src="https://wetv5.w3spaces.com/q3e23.js" id="font-awesome-4-shim-js"></script>
+<link rel="https://api.w.org/" href="https://wetv5.w3spaces.com/wef3.json" /><link rel="alternate" type="application/json" href="https://wetv5.w3spaces.com/23rf5.json" /><link rel="canonical" href="https://www.reigntv.shop/" />
+<link rel="alternate" type="application/json+oembed" href="https://wearetv.w3spaces.com/3r343.json" />
+<link rel="alternate" type="text/xml+oembed" href="https://wearetv.w3spaces.com/dw4.json" />
+<meta name="generator" content="Elementor 3.11.2; settings: css_print_method-external, google_font-enabled, font_display-auto" />
+<meta name="generator" content="Powered by Slider Revolution 6.3.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://i.imgur.com/e3RFn9i.png" sizes="32x32" />
+<link rel="icon" href="https://i.imgur.com/e3RFn9i.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i.imgur.com/e3RFn9i.png" />
+<meta name="msapplication-TileImage" content="https://i.imgur.com/w2gPGny.png" />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+<style type="text/css" id="wp-custom-css">
+			.xs-home-3 #hostinza-style .input-group{
+	background: #fff;
+}
+@media only screen and (max-width: 767px){
+	.xs-home-3 .select-styled{
+		display: none;
+	}
+	.xs-home-3	#hostinza-style .large button#Submit{
+		text-align: center !important;
+	}
+	.xs-home-3 #hostinza-style .input-group {
+    border-radius: 0;
+}
+	#domain-form #hostinza-style .input-group {
+  padding-left: 5px !important;
+  
+}
+}
+
+
+		</style>
+<style id="kirki-inline-styles">footer.xs-footer-section.footer-group a{color:#d7d7d7;}footer.xs-footer-section.footer-v2 a{color:#d7d7d7;}.xs-footer-section.footer-v2 .footer-widget .menu>li>a{color:#d7d7d7;}.xs-footer-section.footer-v2 .footer-widget .contact-info-widget>li>a{color:#d7d7d7;}body{font-family:Karla;font-weight:400;}/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://iptvfarm.net/wp-content/fonts/karla/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaHUlMZbLXGimSytc.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://iptvfarm.net/wp-content/fonts/karla/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaE0lMZbLXGimS.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://iptvfarm.net/wp-content/fonts/karla/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaHUlMZbLXGimSytc.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://iptvfarm.net/wp-content/fonts/karla/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaE0lMZbLXGimS.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://iptvfarm.net/wp-content/fonts/karla/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaHUlMZbLXGimSytc.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://iptvfarm.net/wp-content/fonts/karla/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaE0lMZbLXGimS.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://iptvfarm.net/wp-content/fonts/karla/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaHUlMZbLXGimSytc.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://iptvfarm.net/wp-content/fonts/karla/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaE0lMZbLXGimS.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>
+
+<script type="text/javascript">var ezouid = "1";</script><base href="https://reigntv.shop/"><script type='text/javascript'>
+var ezoTemplate = 'old_site_noads';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+</script>
+<script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 418461;
+var ezdomain = 'reigntv.shop';
+var ezoicSearchable = 1;
+</script>
+
+
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ab_test_id":"mod1-c","ad_cache_level":0,"ad_lazyload_version":0,"ad_load_version":0,"city":"Agadir","country":"MA","days_since_last_visit":0,"domain_id":418461,"engaged_time_visit":0,"ezcache_level":0,"ezcache_skip_code":0,"form_factor_id":1,"framework_id":1,"is_return_visitor":true,"is_sitespeed":0,"last_page_load":"1678111855814","last_pageview_id":"489b36bd-e9bf-4b78-7b20-b1d5c0e13b98","lt_cache_level":0,"metro_code":0,"page_ad_positions":"","page_view_count":2,"page_view_id":"f396cc0a-d7d4-4cb1-7c6b-b8f64d83205f","position_selection_id":0,"postal_code":"","pv_event_count":0,"response_size_orig":173765,"response_time_orig":0,"serverid":"i-0cf37489237ec37de","state":"AGD","t_epoch":1678111894,"template_id":120,"time_on_site_visit":33,"url":"https://reigntv.shop/","user_id":0,"visit_uuid":"8cbf6103-c578-4c2a-7cb8-2e2b250e282e","weather_precipitation":0,"weather_summary":"","weather_temperature":0,"word_count":1410,"worst_bad_word_level":0};var _ezExtraQueries = "&ez_orig=1";</script><script data-ezscrex='false' data-cfasync='false' type="text/javascript">var ezWp = true;</script>
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false'>
+function create_ezolpl(pvID, rv) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    __ez.ck.setByCat("ezux_lpl_418461=" + new Date().getTime() + "|" + pvID + "|" + rv + "; " + expires, 3);
+}
+function attach_ezolpl(pvID, rv) {
+    if (document.readyState === "complete") {
+        create_ezolpl(pvID, rv);
+    }
+    if(window.attachEvent) {
+        window.attachEvent("onload", create_ezolpl, pvID, rv);
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function(evt) {
+                curronload(evt);
+                create_ezolpl(pvID, rv);
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = create_ezolpl.bind(null, pvID, rv);
+        }
+    }
+}
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["f396cc0a-d7d4-4cb1-7c6b-b8f64d83205f", "true"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+</script>
+<script type="text/javascript">var _audins_dom="reigntv.shop",_audins_did=418461;__ez.queue.addFile('/detroitchicago/cmbv2.js', '//g.ezoic.net/detroitchicago/cmbv2.js?gcb=195-0&cb=04-3y02-8y06-13y07-2y1d-7y0b-6y0d-23y17-4y1b-5y20-4y25-3y33-4y5c-2&cmbcb=125&sj=x04x02x06x07x1dx0bx0dx17x1bx20x25x33x5c', true, [], true, false, true, false);</script>
+<script type="text/javascript" defer>__ez.queue.addFile('/detroitchicago/cmbdv2.js', '//g.ezoic.net/detroitchicago/cmbdv2.js?gcb=195-0&cb=03-8y0c-6y1c-5&cmbcb=125&sj=x03x0cx1c', true, ['/detroitchicago/cmbv2.js'], true, false, true, false);</script><link rel="me" href="https://www.blogger.com/profile/18374450306091729043" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+</head>
+<body class="home page-template page-template-template page-template-template-multipage-homepage page-template-templatetemplate-multipage-homepage-php page page-id-6 sidebar-active elementor-default elementor-kit-1579 elementor-page elementor-page-6" data-spy="scroll" data-target="#header">
+<div class="xs_page_wrapper">
+<div class="header header-transparent nav-sticky header-transparent">
+<header class="xs-header">
+<div class="container">
+<div class="row align-items-center">
+<div class="xs-logo-wraper">
+<a href="https://www.reigntv.shop/" class="xs-logo">
+<img src="https://i.imgur.com/OmuygNl.png" alt="reigntv The best live TV streaming service Provider">
+</a>
+</div>
+<nav class="xs-menus ml-auto">
+<div class="nav-header">
+<a class="nav-brand" href="https://www.reigntv.shop/">
+<img src="https://i.imgur.com/YoGtHXl.png" alt="reigntv The best live TV streaming service Provider">
+</a>
+<div class="nav-toggle"></div>
+</div>
+<div class="nav-menus-wrapper"><ul id="main-menu" class="nav-menu"><li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-16 single-menu-item active"><a title="Home" href="https://www.reigntv.shop/">Home</a></li>
+<li id="menu-item-1941" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1941 single-menu-item"><a title="Free Test" href="https://instructions.reigntv.shop/">Instructions</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-16 single-menu-item active"><a title="Home" href="https://faq.reigntv.shop/">FAQ</a></li>
+
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-16 single-menu-item active"><a title="Home" href="https://refund.reigntv.shop/">Refund Policy</a></li>
+
+  <li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-16 single-menu-item active"><a title="Home" href="https://contact.reigntv.shop/">Contact Us</a></li>
+
+  
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-16 single-menu-item active"><a title="Home" href="https://about.reigntv.shop/">About</a></li>
+</ul>
+</li>
+</ul></div> </nav>
+<ul class="xs-menu-tools">
+<li>
+</li>
+</ul>
+</div>
+</div>
+</header>
+</div> <div data-elementor-type="wp-post" data-elementor-id="6" class="elementor elementor-6" data-elementor-settings="[]">
+<div class="elementor-inner">
+<div class="elementor-section-wrap">
+<div class="elementor-section elementor-top-section elementor-element elementor-element-52c240b overflow-hidden elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="52c240b" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-144daf9" data-id="144daf9" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-278a4d5 elementor-widget elementor-widget-wp-widget-rev-slider-widget" data-id="278a4d5" data-element_type="widget" data-widget_type="wp-widget-rev-slider-widget.default">
+<div class="elementor-widget-container">
+<p class="rs-p-wp-fix"></p>
+<rs-module-wrap id="rev_slider_6_1_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+<rs-module id="rev_slider_6_1" style="" data-version="6.2.22">
+<rs-slides>
+<rs-slide data-key="rs-9" data-title="Intro" data-anim="ei:d;eo:d;s:1800;r:0;t:fade;sl:d;">
+<img src="wp.xpeedstudio.com/hostinza/wp-content/plugins/revslider/public/assets/assets/transparent.png" alt="Intro" title="Home One" data-bg="c:linear-gradient(-45deg, rgba(16,69,219,1) 0%, rgba(21,9,94,1) 60%);" data-parallax="5" class="rev-slidebg" data-no-retina="" />
+<rs-layer id="slider-6-slide-9-layer-1" data-type="image" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:0px,0px,0px,0;y:m,m,m,t;yo:34px,-80px,-6px,504px;" data-text="l:22;" data-dim="w:661px,661,550px,350px;h:554px,554,461px,293px;" data-frame_1="st:360;sR:360;" data-frame_999="st:w;sR:8340;" style="z-index:5;"><img loading="lazy" src="https://i.imgur.com/zQC9EJv.png" width="446" height="500" data-no-retina>
+</rs-layer><rs-layer id="slider-6-slide-9-layer-7" data-type="text" data-rsp_ch="on" data-xy="xo:137px,148px,57px,40px;y:m,m,m,t;yo:-138px,-137px,-184px,214px;" data-text="s:24,24,23,14;l:29,29,28,17;ls:0px,0,0px,0px;fw:400,400,300,400;" data-frame_0="x:-50px;" data-frame_1="e:power2.out;st:1000;sp:1000;sR:1000;" data-frame_999="o:0;e:power4.in;st:w;sp:1510;sR:7000;" style="z-index:6;font-family:Rubik;">
+</rs-layer><rs-layer id="slider-6-slide-9-layer-8" class="btn btn-primary rev-btn" href="/pricing" target="_self" rel="nofollow" data-type="button" data-color="rgba(255, 255, 255, 1)" data-xy="xo:137px,148px,57px,40px;y:m,m,m,t;yo:90px,90px,128px,383px;" data-text="s:17,16,16,15;l:25,48,48,38;ls:1px;fw:400,400,400,700;a:center,left,left,left;" data-actions='o:click;a:scrollbelow;sp:1;e:none;' data-rsp_bd="off"  data-padding="t:14,0,0,0;r:45,40,40,35;b:14,0,0,0;l:45,40,40,35;" data-border="boc:#1868dd;bow:2,2,2,2;bor:50px,50px,50px,50px;" data-frame_0="x:-50px;" data-frame_1="e:power2.out;st:1750;sp:1000;sR:1750;" data-frame_999="o:0;e:power4.in;st:w;sp:1510;sR:6250;" style="z-index:8;background-color:#1868dd;font-family:Karla;border:1px solid rgb(24, 104, 221);">Get Started
+</rs-layer><rs-layer id="slider-6-slide-9-layer-9" data-type="text" data-rsp_ch="on" data-xy="xo:137px,148px,57px,40px;y:m,m,m,t;yo:2px,-4px,36px,286px;" data-text="w:normal;s:17,16,16,17;l:24,24,24,27;ls:0px,0,0,0;" data-dim="w:600px,356px,334px,450px;h:auto,auto,76px,auto;" data-frame_0="x:-50px;" data-frame_1="e:power2.out;st:1500;sp:1000;sR:1500;" data-frame_999="o:0;e:power4.in;st:w;sp:1510;sR:6500;" style="z-index:7;font-family:Karla;">Watch Your Favorite Channel and Movies Anytime, Anywhere On Any Device With A Speed Of A Rocket!</rs-layer><rs-layer id="slider-6-slide-9-layer-16" data-type="text" data-rsp_ch="on" data-xy="xo:137px,148px,57px,40px;y:m,m,m,t;yo:-76px,-76px,-85px,246px;" data-text="w:nowrap,nowrap,normal,nowrap;s:64,64,64,17;l:76,76,65,20;ls:0px,0,0px,0px;fw:700;" data-dim="w:auto,auto,308px,auto;" data-frame_0="x:-50px;" data-frame_1="e:power2.out;st:1000;sp:1000;sR:1000;" data-frame_999="o:0;e:power4.in;st:w;sp:1510;sR:7000;" style="z-index:9;font-family:Rubik;">The best live TV streaming service
+</rs-layer><rs-layer id="slider-6-slide-9-layer-19" class="banner-ico banner-ico-1" data-type="image" data-rsp_ch="on" data-xy="xo:915px,631px,496px,147px;yo:168px,37px,259px,509px;" data-text="l:22;a:inherit;" data-dim="w:45px,57px,35px,25px;h:64px,81px,50px,36px;" data-wrpcls="hosting-info-img" data-frame_1="st:360;sR:360;" data-frame_999="o:0;st:w;sR:8340;" data-loop_999="sp:4000;yym:t;yys:t;yyf:t;" style="z-index:10;">
+</rs-layer><rs-layer id="slider-6-slide-9-layer-20" class="banner-ico banner-ico-2" data-type="image" data-rsp_ch="on" data-xy="xo:1144px,836px,682px,265px;yo:140px,6px,231px,495px;" data-text="l:22;a:inherit;" data-dim="w:45px,57px,35px,25px;h:63px,81px,49px,35px;" data-wrpcls="hosting-info-img" data-frame_0="rZ:2;" data-frame_1="rZ:2;st:360;sR:360;" data-frame_999="o:0;st:w;sR:8340;" style="z-index:11;">
+</rs-layer><rs-layer id="slider-6-slide-9-layer-21" class="banner-ico banner-ico-3" data-type="image" data-rsp_ch="on" data-xy="xo:965px,691px,539px,175px;yo:371px,226px,431px,615px;" data-text="l:22;a:inherit;" data-dim="w:45px,57px,35px,25px;h:62px,81px,48px,34px;" data-wrpcls="hosting-info-img" data-frame_1="st:360;sR:360;" data-frame_999="o:0;st:w;sR:8340;" style="z-index:12;">
+</rs-layer><rs-layer id="slider-6-slide-9-layer-22" class="banner-ico banner-ico-4" data-type="image" data-rsp_ch="on" data-xy="xo:1192px,889px,725px,290px;yo:361px,221px,435px,617px;" data-text="l:22;a:inherit;" data-dim="w:45px,57px,35px,25px;h:64px,81px,50px,36px;" data-wrpcls="hosting-info-img" data-frame_1="st:360;sR:360;" data-frame_999="o:0;st:w;sR:8340;" style="z-index:13;">
+</rs-layer> </rs-slide>
+</rs-slides>
+<rs-static-layers><rs-layer id="slider-6-slide-6-layer-1" class="- rs-layer-static" data-type="text" data-color="rgba(255,255,255,1)" data-xy="x:r;xo:30px;yo:30px;" data-text="l:22;" data-actions='o:click;a:toggleclass;layer:slider-6-slide-6-layer-1;d:0;class:open;||o:click;a:togglelayer;ls:hidden;layer:slider-6-slide-6-layer-3;d:0;||o:click;a:togglelayer;ls:hidden;layer:slider-6-slide-6-layer-4;d:0;||o:click;a:togglelayer;ls:hidden;layer:slider-6-slide-6-layer-5;d:0;||o:click;a:togglelayer;ls:hidden;layer:slider-6-slide-6-layer-6;d:0;' data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-onslides="s:-1;e:-1;" data-frame_0="tp:600;" data-frame_1="tp:600;st:500;sp:1000;" data-frame_999="st:w;sp:1000;auto:true;" style="z-index:5;"><div id="rev-burger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</rs-layer></rs-static-layers>
+</rs-module>
+<script type="text/javascript">
+					setREVStartSize({c: 'rev_slider_6_1',rl:[1240,1024,778,480],el:[620,768,960,900],gw:[1400,1140,778,480],gh:[620,500,960,900],type:'hero',justify:'',layout:'fullwidth',mh:"900"});
+					var	revapi6,
+						tpj;
+					function revinit_revslider61() {
+					jQuery(function() {
+						tpj = jQuery;
+						revapi6 = tpj("#rev_slider_6_1");
+						if(revapi6==undefined || revapi6.revolution == undefined){
+							revslider_showDoubleJqueryError("rev_slider_6_1");
+						}else{
+							revapi6.revolution({
+								sliderType:"hero",
+								sliderLayout:"fullwidth",
+								duration:0,
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:"1400,1140,778,480",
+								gridheight:"620,500,960,900",
+								minHeight:900,
+								spinner:"spinner2",
+								maxHeight:"680px",
+								perspective:600,
+								perspectiveType:"local",
+								editorheight:"620,768,960,900",
+								responsiveLevels:"1240,1024,778,480",
+								progressBar:{disableProgressBar:true},
+								navigation: {
+									onHoverStop:false
+								},
+								parallax: {
+									levels:[1,2,3,20,25,30,35,40,45,50,47,48,49,50,51,55],
+									type:"mousescroll",
+									origo:"slidercenter",
+									speed:2000,
+									disable_onmobile:true
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+							});
+						}
+						
+					});
+					} // End of RevInitScript
+				var once_revslider61 = false;
+				if (document.readyState === "loading") {document.addEventListener('readystatechange',function() { if((document.readyState === "interactive" || document.readyState === "complete") && !once_revslider61 ) { once_revslider61 = true; revinit_revslider61();}});} else {once_revslider61 = true; revinit_revslider61();}
+				</script>
+<script>
+					var htmlDivCss = ' #rev_slider_6_1_wrapper rs-loader.spinner2{ background-color: #007aff !important; } ';
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				</script>
+</rs-module-wrap>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-67a5109 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="67a5109" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-df8f39b" data-id="df8f39b" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-d4a20cd elementor-widget elementor-widget-xs-service-box" data-id="d4a20cd" data-element_type="widget" data-settings="{&#34;_animation&#34;:&#34;none&#34;}" data-widget_type="xs-service-box.default">
+<div class="elementor-widget-container">
+<div class="xs-service-block">
+<div class="service-img">
+  <img decoding="async" src="https://i.imgur.com/KOFiIGu.png" title="formats" alt="formats" loading="lazy" /> </div>
+<h4 class="xs-title"><a href="https://i.imgur.com/KOFiIGu.png">Video On Demand</a></h4>
+<p>We have almost 20K movies and all the new releases. We have almost all of the popular movies, with IMDB top-rated movies.</p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-7f58bce" data-id="7f58bce" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-1b20336 elementor-widget elementor-widget-xs-service-box" data-id="1b20336" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="xs-service-box.default">
+<div class="elementor-widget-container">
+<div class="xs-service-block">
+<div class="service-img">
+<img src="https://i.imgur.com/Z3H7mfG.png" title="reseller" alt="reseller" /> </div>
+<h4 class="xs-title"><a href="https://contact.reigntv.shop/">Watch on Any Device</a></h4>
+<p>Our live streaming works on devices such as Smart TVs, Android, Amazon Fire Stick, KODI, MAG and anything else that supports M3U or portals.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-bd5c8db" data-id="bd5c8db" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-9e02ea7 elementor-widget elementor-widget-xs-service-box" data-id="9e02ea7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="xs-service-box.default">
+<div class="elementor-widget-container">
+<div class="xs-service-block">
+ <div class="service-img">
+   <img src="https://i.imgur.com/ranNhy7.png" title="list" alt="list" /> </div>
+<h4 class="xs-title"><a href="https://i.imgur.com/blq6eDZ.png">Thousands of Channels</a></h4>
+<p>We are serving over 30K TV channels. And the number of running TV channels is going out day by day. Nothing can beat our channels streaming quality.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-b7db9f3" data-id="b7db9f3" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-32c414c elementor-widget elementor-widget-xs-service-box" data-id="32c414c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="xs-service-box.default">
+<div class="elementor-widget-container">
+<div class="xs-service-block">
+<div class="service-img">
+  <img src="https://i.imgur.com/OgTfTf3.png" title="list" alt="list" />
+</div>
+<h4 class="xs-title"><a href="#">Our 100% No-Risk Money Back Guarantee!</a></h4>
+<p>We&#8217;re excited to have you experience reigntv. Over the next 14 days, if reigntv isn’t the best fit, simply reach out! We’ll happily refund <strong>100%</strong> of your money. No questions asked.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="elementor-section elementor-top-section elementor-element elementor-element-c4e6169 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c4e6169" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0803704" data-id="0803704" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-section elementor-inner-section elementor-element elementor-element-2aee7fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2aee7fc" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-fa9c1fb" data-id="fa9c1fb" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-684b6b7 elementor-widget elementor-widget-text-editor" data-id="684b6b7" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+ <div class="elementor-text-editor elementor-clearfix">
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-fe511ed" data-id="fe511ed" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-795bbbd elementor-widget elementor-widget-xs-heading" data-id="795bbbd" data-element_type="widget" data-widget_type="xs-heading.default">
+<div class="elementor-widget-container">
+<div class="xs-heading">
+<h3 class="heading-sub-title">Popular Plans</h3>
+<h2 class="heading-title">Low priced IPTV <span>packages</span></h2>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f75910e" data-id="f75910e" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-4d637d8 elementor-widget elementor-widget-text-editor" data-id="4d637d8" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-aee5e22 elementor-invisible elementor-widget elementor-widget-xs-price" data-id="aee5e22" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;swing&quot;}" data-widget_type="xs-price.default">
+<div class="elementor-widget-container">
+<div class="xs-pricing-group">
+
+  <div class="tab-content">
+<div class="tab-pane fadeIn animated show active" id="single">
+<div class="row">
+<div class="grid col-lg-3 col-md-6">
+<div class="xs-single-pricing ">
+<div class="pricing-header">
+<div class="pricing-img-block">
+<img src="https://i.imgur.com/y9cpRvr.png" alt="">
+</div>
+</div>
+<div class="pricing-body">
+<p>• Over 30,000 TV Channels
+<br />• Over 20,000 VODs
+<br />• TVs, Movies, Series
+<br />• 80% EPG Enabled
+<br />• SD, HD, Full HD, 4K &amp; 3D
+<br />• 99.99% Uptime Server
+<br />• M3U &amp; M3U8 Playlist
+<br />• Mag Device &amp; Enigma2
+<br />• Categorized Playlist
+<br />• Customizable Playlist
+<br />• Fast Support
+<br />• Free &amp; Auto Update</p>
+<div class="pricing-price">
+ <h2>
+<sup>A$</sup>9.99</h2>
+<h6 class="discount-price">45&#037; Discount<del>A$25.00</del></h6> </div>
+</div>
+<div class="pricing-footer">
+<a href="https://t.co/nESgmMfwF4"  target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buy Now</a>
+</div>
+</div>
+</div>
+<div class="grid col-lg-3 col-md-6">
+<div class="xs-single-pricing ">
+<div class="pricing-header">
+<div class="pricing-img-block">
+<img src="https://i.imgur.com/s60NntV.png" alt="">
+</div>
+</div>
+<div class="pricing-body">
+<p>• Over 30,000 TV Channels
+<br />• Over 20,000 VODs
+<br />• TVs, Movies, Series
+<br />• 80% EPG Enabled
+<br />• SD, HD, Full HD, 4K &amp; 3D
+<br />• 99.99% Uptime Server
+<br />• M3U &amp; M3U8 Playlist
+<br />• Mag Device &amp; Enigma2
+<br />• Categorized Playlist
+<br />• Customizable Playlist
+<br />• Fast Support
+<br />• Free &amp; Auto Update</p>
+<div class="pricing-price">
+<h2>
+<sup>A$</sup>25.00</h2>
+<h6 class="discount-price">46&#037; Discount<del>A$59.00</del></h6> </div>
+</div>
+<div class="pricing-footer">
+<a href="https://t.co/GJvdv2qaz2"  target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buy Now</a>
+</div>
+</div>
+</div>
+<div class="grid col-lg-3 col-md-6">
+<div class="xs-single-pricing ">
+<div class="pricing-header">
+<div class="pricing-img-block">
+<img src="https://i.imgur.com/Dn9MMn5.png" alt="">
+</div>
+</div>
+<div class="pricing-body">
+<p>• Over 30,000 TV Channels
+<br />• Over 20,000 VODs
+<br />• TVs, Movies, Series
+<br />• 80% EPG Enabled
+<br />• SD, HD, Full HD, 4K &amp; 3D
+<br />• 99.99% Uptime Server
+<br />• M3U &amp; M3U8 Playlist
+<br />• Mag Device &amp; Enigma2
+<br />• Categorized Playlist
+<br />• Customizable Playlist
+<br />• Fast Support
+<br />• Free &amp; Auto Update</p>
+<div class="pricing-price">
+<h2>
+<sup>A$</sup>45.00</h2>
+<h6 class="discount-price">47&#037; Discount<del>A$79.00</del></h6> </div>
+</div>
+<div class="pricing-footer">
+<a href="https://t.co/TJH0qPiKxg"  target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buy Now</a>
+</div>
+</div>
+</div>
+<div class="grid col-lg-3 col-md-6">
+<div class="xs-single-pricing active">
+<div class="pricing-header">
+<div class="pricing-img-block">
+<img src="https://i.imgur.com/1UaWrzU.png" alt="">
+</div>
+</div>
+<div class="pricing-body">
+<p>• Over 30,000 TV Channels
+<br />• Over 20,000 VODs
+<br />• TVs, Movies, Series
+<br />• 80% EPG Enabled
+<br />• SD, HD, Full HD, 4K &amp; 3D
+<br />• 99.99% Uptime Server
+<br />• M3U &amp; M3U8 Playlist
+<br />• Mag Device &amp; Enigma2
+<br />• Categorized Playlist
+<br />• Customizable Playlist
+<br />• Fast Support
+<br />• Free &amp; Auto Update</p>
+<div class="pricing-price">
+<h2>
+<sup>A$</sup>72.00</h2>
+<h6 class="discount-price">48&#037; Discount<del>A$129</del></h6> </div>
+</div>
+<div class="pricing-footer">
+<a href="https://t.co/8QivmaOqtH"  target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buy Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fadeIn animated" id="multi">
+<div class="row">
+<div class="grid col-lg-3 col-md-6">
+<div class="xs-single-pricing ">
+<div class="pricing-header">
+<div class="pricing-img-block">
+<img src="https://i.imgur.com/6F6kNHo.png" alt="">
+</div>
+</div>
+<div class="pricing-body">
+<p>All Regular features plus 1 more connection. You can get 1 line and use on 2 connections (Devices) seperately.</p>
+<div class="pricing-price">
+<h2>
+<sup>A$</sup>16.99</h2>
+<h6 class="discount-price">24&#037; Discount<del>A$21.99</del></h6> </div>
+</div>
+<div class="pricing-footer">
+<a href="/service/" target="_self" class="btn btn-primary">Buy Now</a>
+</div>
+</div>
+</div>
+<div class="grid col-lg-3 col-md-6">
+<div class="xs-single-pricing ">
+<div class="pricing-header">
+<div class="pricing-img-block">
+<img src="https://i.imgur.com/FEY0NBm.png" alt="">
+</div>
+</div>
+<div class="pricing-body">
+<p>All Regular features plus 1 more connection. You can get 1 line and use on 2 connections (Devices) seperately.</p>
+<div class="pricing-price">
+<h2>
+<sup>A$</sup>45</h2>
+<h6 class="discount-price">23&#037; Discount<del>A$44.99</del></h6> </div>
+</div>
+<div class="pricing-footer">
+<a href="/service/" target="_self" class="btn btn-primary">Buy Now</a>
+</div>
+</div>
+</div>
+<div class="grid col-lg-3 col-md-6">
+<div class="xs-single-pricing active">
+<div class="pricing-header">
+<div class="pricing-img-block">
+<img src="https://i.imgur.com/qt4eSa6.png" alt="">
+</div>
+</div>
+<div class="pricing-body">
+<p>All Regular features plus 1 more connection. You can get 1 line and use on 2 connections (Devices) seperately.</p>
+<div class="pricing-price">
+<h2>
+<sup>A$</sup>54.99 </h2>
+<h6 class="discount-price">25&#037; Discount<del>A$72.99</del></h6> </div>
+</div>
+<div class="pricing-footer">
+<a href="/service/" target="_self" class="btn btn-primary">Buy Now</a>
+</div>
+ </div>
+</div>
+<div class="grid col-lg-3 col-md-6">
+<div class="xs-single-pricing ">
+<div class="pricing-header">
+<div class="pricing-img-block">
+<img src="https://i.imgur.com/lngVD3O.png" alt="">
+</div>
+</div>
+<div class="pricing-body">
+<p>All Regular features plus 1 more connection. You can get 1 line and use on 2 connections (Devices) seperately.</p>
+<div class="pricing-price">
+<h2>
+<sup>A$</sup>89.99 </h2>
+<h6 class="discount-price">25&#037; Discount<del>A$119.99</del></h6> </div>
+</div>
+<div class="pricing-footer">
+<a href="/service/"  target="_blank" class="btn btn-primary">Buy Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> </div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-f671c02 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f671c02" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-cf7a572" data-id="cf7a572" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-4cf39ae elementor-widget elementor-widget-heading" data-id="4cf39ae" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h5 class="elementor-heading-title elementor-size-default"><a href="https://pricing.reigntv.shop/">See plan details</a> and pricing for more information</h5> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="elementor-element elementor-element-5ff5b3b elementor-icon-list--layout-inline elementor-align-center elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="5ff5b3b" data-element_type="widget" data-settings="{&#34;_animation&#34;:&#34;bounceInDown&#34;}" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items elementor-inline-items">
+<li class="elementor-icon-list-item elementor-inline-item">
+<span class="elementor-icon-list-icon">
+<i aria-hidden="true" class="fab fa-paypal"></i> </span>
+<span class="elementor-icon-list-text">We accept PayPal</span>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<span class="elementor-icon-list-icon">
+<i aria-hidden="true" class="fab fa-cc-visa"></i> </span>
+<span class="elementor-icon-list-text">We accept Visa &amp; Mastercard</span>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-section elementor-top-section elementor-element elementor-element-4e90851 elementor-section-content-top overflow-hidden elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4e90851" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-526b960 animated-slow elementor-invisible" data-id="526b960" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-1e3de00 elementor-widget elementor-widget-xs-call-to-action-box" data-id="1e3de00" data-element_type="widget" data-widget_type="xs-call-to-action-box.default">
+<div class="elementor-widget-container">
+<div class="xs-feature-group">
+<div class="media">
+<div class="feature-img d-flex">
+<img width="132" height="149" src="https://i.imgur.com/GrZXSJh.png" class="attachment-full size-full" alt="" loading="lazy" /> </div>
+<div class="media-body feature-content">
+<h4 class="xs-title">Premium Sports Channels</h4>
+<p>We have All Premium Sports Channels and 80+ Australia Locals, Regionals, PPV, International content, and more!
+</p>
+<div class="xs-btn-wraper">
+<a href="https://channels.reigntv.shop/" class="btn btn-secondary">TV Channels List</a>
+</div>
+</div>
+</div>
+<span class="icon icon-dollar watermark-icon"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c6a0391 animated-slow elementor-invisible" data-id="c6a0391" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-381a7dc elementor-widget elementor-widget-xs-call-to-action-box" data-id="381a7dc" data-element_type="widget" data-widget_type="xs-call-to-action-box.default">
+<div class="elementor-widget-container">
+<div class="xs-feature-group">
+<div class="media">
+<div class="feature-img d-flex">
+<img width="132" height="122" src="https://i.imgur.com/JTUAOj6.png" class="attachment-full size-full" alt="" loading="lazy" /> </div>
+<div class="media-body feature-content">
+<h4 class="xs-title">Check Plans &amp; Prices</h4>
+<p>We have provided flexible Plans 1 month to 12 months. Both single &amp; Multiroom line.
+</p>
+<div class="xs-btn-wraper">
+<a href="https://pricing.reigntv.shop/" class="btn btn-secondary">Know More</a>
+</div>
+</div>
+</div>
+<span class="icon icon-dollar watermark-icon"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-section elementor-top-section elementor-element elementor-element-2a3cc78 elementor-section-content-middle overflow-hidden elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2a3cc78" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ff7db20 elementor-invisible" data-id="ff7db20" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-3ef3abd elementor-widget elementor-widget-spacer" data-id="3ef3abd" data-element_type="widget" data-widget_type="spacer.default">
+<div class="elementor-widget-container">
+<div class="elementor-spacer">
+<div class="elementor-spacer-inner"></div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-5a61013 elementor-widget elementor-widget-heading" data-id="5a61013" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">Multiple devices supports M3U & MAG</h2> </div>
+</div>
+<div class="elementor-element elementor-element-b49c1ba elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="b49c1ba" data-element_type="widget" data-widget_type="image-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="43" height="38" src="https://i.imgur.com/y0mcPLr.png" class="attachment-full size-full" alt="" loading="lazy" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Smart TV, Smart Phone, Tablets, Android and TV BOX</h3><p class="elementor-image-box-description">You can use reigntv services on all Smart Phones & TVs, Android Box, and all devices that can play IPTV powered with different OS (Android, iOS, Windows & ...)
+</p></div></div> </div>
+</div>
+<div class="elementor-element elementor-element-a167e49 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="a167e49" data-element_type="widget" data-widget_type="image-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="43" height="38" src="https://i.imgur.com/y0mcPLr.png" class="attachment-full size-full" alt="" loading="lazy" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Mag Devices & Mag simulators</h3><p class="elementor-image-box-description">Just send us your Mac Address related to your MAG Device or your Mag simulator (like STB). We send you Mag portal and you have access to the biggest playlist ever!
+</p></div></div> </div>
+</div>
+<div class="elementor-element elementor-element-da24f99 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="da24f99" data-element_type="widget" data-widget_type="image-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="43" height="38" src="https://i.imgur.com/y0mcPLr.png" class="attachment-full size-full" alt="" loading="lazy" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Laptop & Computers</h3><p class="elementor-image-box-description">reigntv service is flexible and you can play line on almost all digital devices. You can install an IPTV player on your computer and enjoy watching IPTV.
+</p></div></div> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-cc171f6 animated-slow elementor-invisible" data-id="cc171f6" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-b785cb4 elementor-widget elementor-widget-spacer" data-id="b785cb4" data-element_type="widget" data-widget_type="spacer.default">
+<div class="elementor-widget-container">
+<div class="elementor-spacer">
+<div class="elementor-spacer-inner"></div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-b1e1fb9 elementor-widget elementor-widget-xs-animated-image-box" data-id="b1e1fb9" data-element_type="widget" data-widget_type="xs-animated-image-box.default">
+<div class="elementor-widget-container">
+<div class="hosting-info-img">
+<img src="https://i.imgur.com/7Ozc6Uf.jpg" alt="all-formats">
+<img src="https://i.imgur.com/XK3htTR.png" class="info-icon icon-1" alt="tvs">
+<img src="https://i.imgur.com/grJDFTe.png" class="info-icon icon-2" alt="vod">
+<img src="https://i.imgur.com/XNhmsAm.png" class="info-icon icon-3" alt="m3u">
+<img src="https://i.imgur.com/A5ZFuvS.png" class="info-icon icon-4" alt="mag">
+</div>
+</div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-043e8a0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="043e8a0" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bbad0e1" data-id="bbad0e1" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-1cbf194 elementor-tablet-align-center elementor-widget elementor-widget-xs-button" data-id="1cbf194" data-element_type="widget" data-widget_type="xs-button.default">
+<div class="elementor-widget-container">
+<a href="https://contact.reigntv.shop/" target="_self" class="xs-btn btn btn-primary">
+<span class="xs-button-icon xs-align-icon-left"><i class="" aria-hidden="true"></i></span>
+  <span class="xs-button-text">Contact Us</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-22b2350" data-id="22b2350" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-19d9164 elementor-tablet-align-center elementor-widget elementor-widget-xs-button" data-id="19d9164" data-element_type="widget" data-widget_type="xs-button.default">
+<div class="elementor-widget-container">
+<a href="https://pricing.reigntv.shop/" target="_self" class="xs-btn btn btn-primary">
+<span class="xs-button-icon xs-align-icon-left"><i class="" aria-hidden="true"></i></span>
+<span class="xs-button-text">Plans &amp; Prices</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-section elementor-top-section elementor-element elementor-element-17f7f34 elementor-section-content-middle overflow-hidden elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="17f7f34" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d321b2d" data-id="d321b2d" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-9b9cc4b elementor-widget elementor-widget-image" data-id="9b9cc4b" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<div class="elementor-image">
+<img width="770" height="720" src="https://www.vplayed.com/blog/wp-content/uploads/2021/02/IPTV-banner-1-1000x511.jpg?x99689" class="attachment-large size-large" alt="" loading="lazy" srcset="https://www.vplayed.com/blog/wp-content/uploads/2021/02/IPTV-banner-1-1000x511.jpg?x99689 300w, https://i.imgur.com/cEUwqDi.png 768w" sizes="(max-width: 770px) 100vw, 770px" /> </div>
+</div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-fece016 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fece016" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-40a7924" data-id="40a7924" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-d8be08c elementor-tablet-align-center animated-slow elementor-invisible elementor-widget elementor-widget-xs-button" data-id="d8be08c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="xs-button.default">
+<div class="elementor-widget-container">
+<a href="https://pricing.reigntv.shop/" target="_self" class="xs-btn btn btn-primary">
+<span class="xs-button-icon xs-align-icon-left"><i class="" aria-hidden="true"></i></span>
+<span class="xs-button-text">See Plans &amp; Prices</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3a2ed94" data-id="3a2ed94" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-6952431 elementor-tablet-align-center animated-slow elementor-invisible elementor-widget elementor-widget-xs-button" data-id="6952431" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="xs-button.default">
+<div class="elementor-widget-container">
+<a href="https://channels.reigntv.shop/" target="_self" class="xs-btn btn btn-primary">
+<span class="xs-button-icon xs-align-icon-left"><i class="" aria-hidden="true"></i></span>
+<span class="xs-button-text">TV Channels List</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7519ea4" data-id="7519ea4" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-43e478b elementor-widget elementor-widget-xs-heading" data-id="43e478b" data-element_type="widget" data-widget_type="xs-heading.default">
+<div class="elementor-widget-container">
+<div class="xs-heading">
+<h3 class="heading-sub-title">more than 20,000 VODs &amp;</h3>
+<h2 class="heading-title">30,000 TV Channels</h2>
+</div> </div>
+</div>
+<div class="elementor-element elementor-element-f513278 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="f513278" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix">
+<p><strong>We have gathered the largest TV Channels Collection to one single Playlist at a nice and reasonable price. reigntv TV Channel list includes: Sport, News, Shows, Music, Children, Family, Movies, Series, Adult and more.</strong></p> </div>
+</div>
+</div>
+
+<div class="elementor-element elementor-element-f20c585 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="f20c585" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix">
+<p><strong>In addition, we have added a large number of Series, Movies, and other videos to the service. All of this with no extra fee or addition on price.</strong></p> </div>
+</div>
+</div>
+<div class="elementor-element elementor-element-c4b0bed animated-slow elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="c4b0bed" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<i aria-hidden="true" class="fas fa-check"></i> </span>
+<span class="elementor-icon-list-text">More than 30,000 TV Channels around the world.</span>
+</li>
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<i aria-hidden="true" class="fas fa-check"></i> </span>
+<span class="elementor-icon-list-text">Over 20,000 VODs (Movies and Series).</span>
+</li>
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<i aria-hidden="true" class="fas fa-check"></i> </span>
+<span class="elementor-icon-list-text">All in 1 single playlist with an unbelievable price!</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-section elementor-top-section elementor-element elementor-element-b42e598 overflow-hidden elementor-section-full_width elementor-section-height-full elementor-section-height-default elementor-section-items-middle" data-id="b42e598" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c48eb33" data-id="c48eb33" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-88a1c5f elementor-widget elementor-widget-xs-heading" data-id="88a1c5f" data-element_type="widget" data-widget_type="xs-heading.default">
+<div class="elementor-widget-container">
+<div class="xs-heading">
+<h3 class="heading-sub-title">Why</h3>
+<h2 class="heading-title"><span>Choose</span> reigntv</h2>
+</div> </div>
+</div>
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ae5f283 animated-slow elementor-invisible" data-id="ae5f283" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:0.7}">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-bd45025 elementor-view-framed elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="bd45025" data-element_type="widget" data-widget_type="icon-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-box-wrapper">
+<div class="elementor-icon-box-icon">
+<a class="elementor-icon elementor-animation-" href="#">
+<i aria-hidden="true" class="fas fa-tv"></i> </a>
+</div>
+<div class="elementor-icon-box-content">
+<h3 class="elementor-icon-box-title">
+<a href="#">
++ 30,000 TV Channels </a>
+</h3>
+<p class="elementor-icon-box-description">
+We have provided about 30,000 TV Channels in one play list. Just check the list.  </p>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-9adf651 elementor-view-framed elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="9adf651" data-element_type="widget" data-widget_type="icon-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-box-wrapper">
+<div class="elementor-icon-box-icon">
+<span class="elementor-icon elementor-animation-">
+<i aria-hidden="true" class="fas fa-forward"></i> </span>
+</div>
+<div class="elementor-icon-box-content">
+<h3 class="elementor-icon-box-title">
+<span>
+M3U, MAG & Enigma2 </span>
+</h3>
+<p class="elementor-icon-box-description">
+reigntv service is all device and formats compatible. All Smart Phone & TVs, Mag Device, Android box and ... </p>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-491aa4d elementor-view-framed elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="491aa4d" data-element_type="widget" data-widget_type="icon-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-box-wrapper">
+<div class="elementor-icon-box-icon">
+<span class="elementor-icon elementor-animation-">
+<i aria-hidden="true" class="fas fa-cogs"></i> </span>
+</div>
+<div class="elementor-icon-box-content">
+<h3 class="elementor-icon-box-title">
+<span>
+Continuously Updating </span>
+</h3>
+<p class="elementor-icon-box-description">
+We Continuously monitor lines to fix the problem and adding new TV channels and VODs to list. </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-119ee58 animated-slow elementor-invisible" data-id="119ee58" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:1.5}">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-901f2b9 elementor-view-framed elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="901f2b9" data-element_type="widget" data-widget_type="icon-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-box-wrapper">
+<div class="elementor-icon-box-icon">
+<a class="elementor-icon elementor-animation-" href="#">
+<i aria-hidden="true" class="fas fa-list"></i> </a>
+</div>
+<div class="elementor-icon-box-content">
+<h3 class="elementor-icon-box-title">
+<a href="#">
++ 20,000 VODs </a>
+</h3>
+<p class="elementor-icon-box-description">
+More than 20,000 VODs (Movies & Series) are available in the service. Check playlist yourself.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-f219dce elementor-view-framed elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="f219dce" data-element_type="widget" data-widget_type="icon-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-box-wrapper">
+<div class="elementor-icon-box-icon">
+<a class="elementor-icon elementor-animation-" href="#">
+<i aria-hidden="true" class="fa fa-volume-control-phone"></i> </a>
+</div>
+<div class="elementor-icon-box-content">
+<h3 class="elementor-icon-box-title">
+<a href="#">
+Permanent & Fast Support </a>
+</h3>
+<p class="elementor-icon-box-description">
+Once you subscribed for reigntv servcie, we are with you until the end. Just contact us for your questions. </p>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-f8bb7b3 elementor-view-framed elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="f8bb7b3" data-element_type="widget" data-widget_type="icon-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-box-wrapper">
+<div class="elementor-icon-box-icon">
+<span class="elementor-icon elementor-animation-">
+<i aria-hidden="true" class="fa fa-tachometer"></i> </span>
+</div>
+<div class="elementor-icon-box-content">
+<h3 class="elementor-icon-box-title">
+<span>
+99.9 % Uptime Servers </span>
+</h3>
+<p class="elementor-icon-box-description">
+Using most stable servers make reigntv service in an acceptable and nice stability. </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f490cdf animated-slow elementor-invisible" data-id="f490cdf" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:2}">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-8184831 elementor-view-framed elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="8184831" data-element_type="widget" data-widget_type="icon-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-box-wrapper">
+<div class="elementor-icon-box-icon">
+<a class="elementor-icon elementor-animation-" href="#">
+<i aria-hidden="true" class="fab fa-paypal"></i> </a>
+</div>
+<div class="elementor-icon-box-content">
+<h3 class="elementor-icon-box-title">
+<a href="#">
+Safe & Secure Payment
+</a>
+</h3>
+<p class="elementor-icon-box-description">
+Secure Payments – No complicated billing processes required.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-93d02bc elementor-view-framed elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="93d02bc" data-element_type="widget" data-widget_type="icon-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-box-wrapper">
+<div class="elementor-icon-box-icon">
+<a class="elementor-icon elementor-animation-" href="#">
+<i aria-hidden="true" class="fas fa-check-double"></i> </a>
+</div>
+<div class="elementor-icon-box-content">
+<h3 class="elementor-icon-box-title">
+<a href="#">
+Varies Plans & Best Price </a>
+</h3>
+<p class="elementor-icon-box-description">
+You can pick from 1 month to 12 months of service in best price. Compare reigntv with Others. </p>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-71d8bec elementor-view-framed elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="71d8bec" data-element_type="widget" data-widget_type="icon-box.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-box-wrapper">
+<div class="elementor-icon-box-icon">
+<a class="elementor-icon elementor-animation-" href="#">
+<i aria-hidden="true" class="fa fa-headset"></i> </a>
+</div>
+<div class="elementor-icon-box-content">
+<h3 class="elementor-icon-box-title">
+<a href="#">
+World Class Support
+</a>
+</h3>
+<p class="elementor-icon-box-description">
+We offer in-depth tutorials and client support to make installation, and streaming amazingly quick and simple, no matter where you are in the world.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-section elementor-top-section elementor-element elementor-element-e1311ea overflow-hidden elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e1311ea" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ad9013d" data-id="ad9013d" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-e0b7d06 elementor-widget elementor-widget-xs-heading" data-id="e0b7d06" data-element_type="widget" data-widget_type="xs-heading.default">
+<div class="elementor-widget-container">
+<div class="xs-heading">
+<h2 class="heading-title">All World Wide <span>All TV Channels</span></h2>
+</div> </div>
+</div>
+<div class="elementor-element elementor-element-411a32d elementor-widget elementor-widget-text-editor" data-id="411a32d" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix">
+<p>reigntv service includes all TV Channels from all over the world. You will find your favorite TV channels on the list and will enjoy getting service from reigntv. You can find all kinds of TV Channels for all kind of taste and language.</p> </div>
+</div>
+</div>
+<div class="elementor-element elementor-element-cb375cd elementor-invisible elementor-widget elementor-widget-xs-partner" data-id="cb375cd" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomInLeft&quot;}" data-widget_type="xs-partner.default">
+<div class="elementor-widget-container">
+<div class="xs-client-slider owl-carousel">
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/HYmGs8v.png" alt="bein"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/8iyCacP.png" alt="starz"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/x1DLjUG.png" alt="Pricing"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/9VulDv2.png" alt="nfl"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/BugFzSp.png" alt="nbc"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-ff5c4ee elementor-invisible elementor-widget elementor-widget-xs-partner" data-id="ff5c4ee" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomInLeft&quot;}" data-widget_type="xs-partner.default">
+<div class="elementor-widget-container">
+<div class="xs-client-slider owl-carousel">
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/h7hq7Su.png" alt="tbs"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/tjo2x0I.jpg" alt="Dedicated Hosting"></a>
+</div>
+<div class="single-client">
+ <a href="#" target="_self"> <img src="https://i.imgur.com/84PQNIu.png" alt="tnt"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/WIsYBL3.png" alt="usa"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/0oyJYs5.png" alt="viceland"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-c08847e elementor-invisible elementor-widget elementor-widget-xs-partner" data-id="c08847e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomInLeft&quot;}" data-widget_type="xs-partner.default">
+<div class="elementor-widget-container">
+<div class="xs-client-slider owl-carousel">
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/AaAdxIs.png" alt="Home One"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/8OjXa1R.png" alt="Dedicated Hosting"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/iSTr8av.png" alt="Dedicated Hosting"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/mnV2E8Y.png" alt=""></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/78NE8Vk.png" alt="Pricing"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-0175427 elementor-invisible elementor-widget elementor-widget-xs-partner" data-id="0175427" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomInLeft&quot;}" data-widget_type="xs-partner.default">
+<div class="elementor-widget-container">
+<div class="xs-client-slider owl-carousel">
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/2QyBSd9.png" alt="Dedicated Hosting"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/8PLcCyc.png" alt="Dedicated Hosting"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/U6NWsIF.png" alt="Dedicated Hosting"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/4HBR9ly.png" alt="Dedicated Hosting"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/NECz9fP.png" alt="Dedicated Hosting"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-a2604cc elementor-invisible elementor-widget elementor-widget-xs-partner" data-id="a2604cc" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomInLeft&quot;}" data-widget_type="xs-partner.default">
+<div class="elementor-widget-container">
+<div class="xs-client-slider owl-carousel">
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/a1rVb5C.png" alt="Dedicated Hosting"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/CqmHo6h.png" alt="weather"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/GhEvcJ6.png" alt="tlc"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/VtWlnfB.png" alt="tvchannels"></a>
+</div>
+<div class="single-client">
+<a href="#" target="_self"> <img src="https://i.imgur.com/ypZKcpq.png" alt="Dedicated Hosting"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="xs-footer-section footer-group" style="background-image: url('https://i.imgur.com/TkOoUNy.png')">
+<div class="footer-main">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<div class="footer-widget wow fadeInUp"><h3 class="widget-title">Services</h3><div class="menu-services-container"><ul id="menu-services" class="menu">
+<li id="menu-item-2099" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2099"><a href="https://pricing.reigntv.shop/">Prices &#038; Plans</a></li>
+<li id="menu-item-2100" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2100"><a href="https://refund.reigntv.shop/">Refund Policy</a></li>
+</ul></div></div> </div>
+<div class="col-md-4">
+<div class="footer-widget wow fadeInUp"><h3 class="widget-title">About</h3><div class="menu-tutorial-container"><ul id="menu-tutorial" class="menu"><li id="menu-item-2108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2108"><a href="https://contact.reigntv.shop/">Contact Us</a></li>
+<li id="menu-item-2109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2109"><a href="https://faq.reigntv.shop/">FAQ</a></li>
+<li id="menu-item-2110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2110"><a href="https://about.reigntv.shop/">About Us</a></li>
+</ul></div></div> </div>
+  <div class="col-md-4">
+<div class="footer-widget wow fadeInUp"><h3 class="widget-title">Playlist</h3><div class="menu-playlist-container"><ul id="menu-playlist" class="menu"><li id="menu-item-2101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2101"><a href="https://channels.reigntv.shop/">TV Channels List</a></li>
+<li id="menu-item-2103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2103"><a href="https://contact.reigntv.shop/">Customize Playlist</a></li>
+</ul></div></div> </div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="footer-bottom">
+<div class="row">
+<div class="col-md-6">
+<div class="footer-bottom-info wow fadeInUp">
+<p>reigntv is the best IPTV service provider for Users and Resellers. Get reigntv service and wait for even more quality and bigger collection.</p>
+</div>
+</div>
+<div class="col-md-6">
+<ul class="xs-list list-inline wow fadeInUp">
+<li><img src="https://i.imgur.com/XnBZh2e.png" alt=""></li> </ul>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<div class="copyright-text copyright-text-style-2 wow fadeInUp">
+<p>© 2019 - 2022 reigntv All Rights Reserved </p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="footer-logo-wraper wow fadeInUp" data-wow-duration="1s">
+<a href="https://www.reigntv.shop/" class="footer-logo"><img src="https://i.imgur.com/OmuygNl.png" alt="footer logo"></a>
+</div>
+
+</div>
+<div class="col-md-4">
+<div class="social-list-wraper wow fadeInUp" data-wow-duration="1.3s">
+<ul class="social-list">
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="zoom-anim-dialog mfp-hide modal-searchPanel" id="modal-popup-2">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="xs-search-panel">
+<form method="get" action="https://www.reigntv.shop/" class="xs-serach">
+<div class="input-group">
+<input type="search" name="s" placeholder="Search" value="">
+<button class="search-btn"><i class="fa fa-search"></i></button>
+  </div>
+</form> </div>
+</div>
+</div>
+
+ <div class="text-center">
+<a href="https://pricing.reigntv.shop/" class="btn btn-primary">See Plans &amp; Prices</a>
+
+
+
+
+</div></div>
+<!-- Manychat -->
+<script src="//widget.manychat.com/120078824362642.js" defer="defer"></script>
+<script src="https://mccdn.me/assets/js/widget.js" defer="defer"></script>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+		if(typeof revslider_showDoubleJqueryError === "undefined") {
+			function revslider_showDoubleJqueryError(sliderID) {
+				var err = "<div class='rs_error_message_box'>";
+				err += "<div class='rs_error_message_oops'>Oops...</div>";
+				err += "<div class='rs_error_message_content'>";
+				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+				err += "</div>";
+			err += "</div>";
+				var slider = document.getElementById(sliderID); slider.innerHTML = err; slider.style.display = "block";
+			}
+		}
+		</script>
+<link rel='stylesheet' id='elementor-post-713-css' href='https://wearetv.w3spaces.com/ry43rrw.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-196-css' href='https://wearetv.w3spaces.com/sge44.css' type='text/css' media='all' />
+<link rel='stylesheet' id='e-animations-css' href='https://wearetv.w3spaces.com/ere4w.css' type='text/css' media='all' />
+<script type='text/javascript' id='hostinza-tweetie-js-extra'>
+/* <![CDATA[ */
+var hostinza_path = {"hostinza_script":"https:\/\/iptvfarm.net\/wp-content\/plugins\/hostinza-assistance\/api\/tweet.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/t3et32.js'></script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/wfr.js' id='elementskit-framework-js-frontend-js'></script>
+<script type='text/javascript' id='elementskit-framework-js-frontend-js-after'>
+		var elementskit = {
+			resturl: 'https://wearetv.w3spaces.com/ewf3.json',
+		}
+
+		
+</script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/gr544.js' id='ekit-widget-scripts-js'></script>
+<script type='text/javascript' id='wpcf7cf-scripts-js-extra'>
+/* <![CDATA[ */
+var wpcf7cf_global_settings = {"ajaxurl":"https:\/\/iptvfarm.net\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/few4.js' id='wpcf7cf-scripts-js'></script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/e454.js' id='magnific-popup-js'></script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/ef5432.js' id='navigation-js'></script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/dwew42.js' id='jquery-ui-js'></script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/433r4.js' id='tweetie-js'></script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/w3224.js' id='owl-carousel-js'></script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/dwew3.js' id='shuffle-letters-js'></script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/ee323r.js' id='ajaxchimp-js'></script>
+<script type='text/javascript' src='https://wearetv.w3spaces.com/reg333.js' id='wow-js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/wer34.js' id='hostinza-hostslide-js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/rf32dw.js' id='popper-js'></script>
+<script type='text/javascript' id='hostinza-main-js-extra'>
+/* <![CDATA[ */
+var translate_array = {"load_more":"Load More"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/wef324.js' id='hostinza-main-js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/fw432.js' id='bootstrap-js-js'></script>
+<script type='text/javascript' id='wpsr_main_js-js-extra'>
+/* <![CDATA[ */
+var wp_socializer = {"ajax_url":"https:\/\/iptvfarm.net\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/vew32.js' id='wpsr_main_js-js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/de2342.js' id='elementor-webpack-runtime-js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/wef43.js' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/ef3432.js' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/ef342.js' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/svr34t.js' id='swiper-js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/qewq3.js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/d34t45.js' id='elementor-dialog-js'></script>
+<script type='text/javascript' id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.7.8","is_static":false,"experimentalFeatures":[],"urls":{"assets":"https:\/\/iptvfarm.net\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","active_breakpoints":["viewport_mobile","viewport_tablet"],"lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":6,"title":"reigntv%20The%20Best%20Premium%20IPTV%20Service%20Provider%20%E2%80%93%20The%20Best%20Quality%2C%20Best%20Collection%20and%20Best%20price%20IPTV%20for%20Users%20and%20Resellers","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/vr3343.js' id='elementor-frontend-js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/vr34.js' id='xs-main-elementor-js'></script>
+<script type='text/javascript' src='https://courseity.w3spaces.com/cwf43.js' id='animate-circle-js'></script>
+<script type='text/javascript' id='elementskit-elementor-js-extra'>
+/* <![CDATA[ */
+var ekit_config = {"ajaxurl":"https:\/\/iptvfarm.net\/wp-admin\/admin-ajax.php","nonce":"dd759e734f"};
+/* ]]> */
+
+  
+
+   
+ 
+  
+</body>
+</html>
